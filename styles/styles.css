@@ -1,0 +1,154 @@
+header {
+    height: 150px;
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+}
+
+#left-block-logo-caption {
+    display: flex;
+    width: 40%;
+    justify-content: left;
+    align-items: center;
+}
+
+#caption {
+    margin-left: 2%;
+    font-size: 1.5em;
+    color: #319dd2;
+    font-weight: bold;
+}
+
+
+header .top-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 20px;
+    align-items: center;
+    height: 30%;
+}
+
+header #logo {
+    height: 50px;
+    width: 50px;
+}
+
+#info {
+    color: #1f2286;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.nav-container {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+.nav-container > button {
+    width: 10%;
+    height: 80%;
+    color: white;
+    background-color: #39a4d7;
+    border: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.nav-container > button:hover {
+    background-color: #267999;
+}
+
+.main-info-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-info-container > div {
+    width: 30%;
+    height: 550px;
+    margin: 20px 10px;
+    padding: 10px 30px;
+}
+
+.courses-info {
+    color: white;
+    background-color: #319ed3;
+}
+
+.courses-info > div {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.courses-info > div > span {
+    padding-bottom: 5px;
+    border-bottom: #36b9f7 1px solid;
+    cursor: pointer;
+}
+
+.study-form {
+    background-color: #ffa200;
+}
+
+.find-course {
+    background-color: #cb3536;
+    color: #fcc1ae;
+}
+
+#link1:link {
+    color: #f77973;
+}
+
+#link1:visited {
+    color: #f77973;
+}
+
+#course-search {
+    width: 90%;
+    height: 30px;
+    border: #cfb3b4 5px solid;
+    border-radius: 10px;
+    padding: 5px 10px
+}
+
+#course-search::placeholder {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.additional-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.additional-info-paragraph {
+    margin: 0 20px;
+    font-size: 1.5em;
+    align-self: center;
+}
+
+footer {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > button {
+    width: 15%;
+    margin: 0 20px;
+    height: 50%;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    border: #e3e3e3 5px solid;
+    cursor: pointer;
+    font-size: 1.2em;
+    color: #1e6e79;
+    font-weight: bold;
+}
